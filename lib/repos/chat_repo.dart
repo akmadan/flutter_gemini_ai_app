@@ -1,8 +1,8 @@
 import 'dart:developer';
 
 import 'package:dio/dio.dart';
-import 'package:space_pod/models/chat_message_model.dart';
-import 'package:space_pod/utils/constants.dart';
+import 'package:Syllout/models/chat_message_model.dart';
+import 'package:Syllout/utils/constants.dart';
 
 class ChatRepo {
   static Future<String> chatTextGenerationRepo(
@@ -11,7 +11,7 @@ class ChatRepo {
       Dio dio = Dio();
 
       final response = await dio.post(
-          "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}",
+          "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}",
           data: {
             "contents": previousMessages.map((e) => e.toMap()).toList(),
             "generationConfig": {

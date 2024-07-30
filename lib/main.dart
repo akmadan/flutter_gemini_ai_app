@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:space_pod/pages/home_page.dart';
+import 'package:Syllout/pages/course_creater.dart';
+import 'package:Syllout/pages/home_page.dart';
 
 void main() => runApp(new MyApp());
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       theme: ThemeData(
           brightness: Brightness.dark,
-          fontFamily: 'SixtyFour',
+          fontFamily: 'Courier Prime',
           scaffoldBackgroundColor: Colors.grey.shade900,
           primaryColor: Colors.grey.shade900),
     );

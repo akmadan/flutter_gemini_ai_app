@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "space_pod" "\0"
+            VALUE "FileDescription", "Syllout" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "space_pod" "\0"
+            VALUE "InternalName", "Syllout" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "space_pod.exe" "\0"
-            VALUE "ProductName", "space_pod" "\0"
+            VALUE "OriginalFilename", "Syllout.exe" "\0"
+            VALUE "ProductName", "Syllout" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
